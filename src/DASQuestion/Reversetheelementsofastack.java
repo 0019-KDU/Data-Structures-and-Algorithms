@@ -94,7 +94,7 @@ public class Reversetheelementsofastack {
         myStack.reverse();
         myStack.display();
         myStack.push(5);
-        //myStack.pop();
+        //myStack  .pop();
         myStack.display();
 
 
