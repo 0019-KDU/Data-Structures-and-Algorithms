@@ -45,6 +45,16 @@ public class Queue {
         }
     }
 
+    //return  the peek Elment(font element)
+    public int peekElement(){
+        if(isEmpty()){
+            System.out.println("The Queue is Empty");
+            return -99;
+        }else {
+            return queueArr[font];
+        }
+    }
+
     //print the Queue
     void printQueue(){
         for (int i=font;i<=rear;i++){
