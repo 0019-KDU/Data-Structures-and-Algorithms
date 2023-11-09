@@ -35,7 +35,7 @@ public class BinaryExample {
             }
             else if(value>target){
                 max=middle-1;
-            }else 
+            }else
             return middle;
 
         }
